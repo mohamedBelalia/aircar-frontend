@@ -1,0 +1,93 @@
+.my_border{
+  border: red 2px solid;
+}
+
+.date-style ::placeholder{
+  color: white;
+}
+
+.inputField{
+  outline: none;
+  height: 100%;
+  width: 100%;
+  padding-left: 20px;
+}
+
+
+.contDatepicker ::placeholder{
+  color: white;
+}
+
+ :disabled{
+  background-color: rgb(177, 177, 177);
+  color: rgb(216, 216, 216);
+  border-radius: 25%;
+  cursor: no-drop;
+}
+
+
+::selection {
+  background-color: rgb(100, 205, 126);
+  color: rgb(15, 1, 142);
+}
+
+.loading {
+  width: 72px;
+  height: 72px;
+  display: grid;
+  color: #3399c9;
+  background: radial-gradient(farthest-side, currentColor calc(100% - 8.6px),#0000 calc(100% - 7.2px) 0);
+  -webkit-mask: radial-gradient(farthest-side,#0000 calc(100% - 18.7px),#000 calc(100% - 17.3px));
+  border-radius: 50%;
+  animation: loading-sm4bhi 2.4s infinite linear;
+}
+
+.loading::before,
+.loading::after {
+  content: "";
+  grid-area: 1/1;
+  background: linear-gradient(currentColor 0 0) center,
+         linear-gradient(currentColor 0 0) center;
+  background-size: 100% 14.4px,14.4px 100%;
+  background-repeat: no-repeat;
+}
+
+.loading::after {
+  transform: rotate(45deg);
+}
+
+@keyframes loading-sm4bhi {
+  100% {
+     transform: rotate(1turn);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

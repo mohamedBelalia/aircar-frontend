@@ -1,0 +1,111 @@
+{
+    "ourNumbers": [
+      {
+        "number": "530",
+        "title": "rental companies"
+      },
+      {
+        "number": "1290",
+        "title": "rental car registered"
+      },
+      {
+        "number": "45K",
+        "title": "satisfied clients"
+      },
+      {
+        "number": "70K",
+        "title": "booking time"
+      }
+    ]
+    
+    ,
+
+    "carsTypes": [
+      {
+        "img" : "./dynamicImgs/grande_voiture.jpg" ,
+        "type" : "Grande" ,
+        "number" : "524" 
+      },
+      {
+        "img" : "./dynamicImgs/petite_voiture.jpg" ,
+        "type" : "Petite" ,
+        "number" : "717" 
+      },
+      {
+        "img" : "./dynamicImgs/Monospace.jpg" ,
+        "type" : "Monospace" ,
+        "number" : "652" 
+      },
+      {
+        "img" : "./dynamicImgs/SUV.jpg" ,
+        "type" : "SUV" ,
+        "number" : "914" 
+      },
+      {
+        "img" : "./dynamicImgs/voiture_moyenne.jpg" ,
+        "type" : "Moyenne" ,
+        "number" : "729" 
+      },
+      {
+        "img" : "./dynamicImgs/voiture_luxe.jpg" ,
+        "type" : "Luxe" ,
+        "number" : "198" 
+      }
+    ]
+
+    ,
+
+    "companiesLogos": [
+          {
+            "src" : "./dynamicImgs/BMW.png" ,
+            "alt" : "BMW.png"
+          },
+          {
+            "src" : "./dynamicImgs/Ferrari.png" ,
+            "alt" : "Ferrari.png"
+          },
+          {
+            "src" : "./dynamicImgs/Nissan_logo.png" ,
+            "alt" : "Nissan_logo.png"
+          },
+          {
+            "src" : "./dynamicImgs/logo-Audi.png" ,
+            "alt" : "logo-Audi.png"
+          },
+          {
+            "src" : "./dynamicImgs/honda.png" ,
+            "alt" : "honda.png"
+          },
+          {
+            "src" : "./dynamicImgs/Dacia.png" ,
+            "alt" : "Dacia.png"
+          },
+          {
+            "src" : "./dynamicImgs/Lamborghini_Logo.png" ,
+            "alt" : "Lamborghini_Logo.png"
+          }
+          
+    ]
+
+    ,
+
+    "questions" : [
+      {
+        "question" : "How do I find the cheapest car rental deal ?" ,
+        "answer" : "We work with all the major international car hire brands (and lots of smaller local companies) to bring you a huge choice of cars at the very best prices. That's how we can find you cheap car hire deals at over 60,000 locations worldwide. To compare prices and find your ideal car at an unbeatable price, just use our search form."
+      },
+      {
+        "question" : "What should I look for when i'm choosing a car ?" ,
+        "answer" : "Space: You'll enjoy your rental far more if you choose a car with plenty of room for your passengers and luggage. Fuel policy: Not planning on driving much? A Like for like fuel policy can save you a lot of money. Location: You can't beat an 'on-airport' pick-up for convenience, but an 'off-airport' pick-up with a shuttle bus can be much cheaper."
+      },
+      {
+        "question" : "What do I need to rent a car ?" ,
+        "answer" : "To book your car, all you need is a credit or debit card. When you pick the car up, you'll need: Your voucher / eVoucher, to show that you've paid for the car. The main driver's credit / debit card, with enough available funds for the car's deposit. Each driver's full, valid driving licence, which they've held for at least 12 months (often 24).Your passport and any other ID the car hire company needs to see."
+      },
+      {
+        "question" : "How old do I have to be to rent a car ?" ,
+        "answer" : "For most car rental companies, the age requirement is between 21 and 70 years old. If you're under 25 or over 70, you might have to pay an additional fee."
+      }
+    ]
+
+  }

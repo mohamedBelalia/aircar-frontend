@@ -1,0 +1,29 @@
+{
+    "carsTypes": [
+        {
+          "type": "Luxe Car",
+          "imgPath": "./dynamicImgs/imgIcons/icon1.png"
+        },
+        {
+          "type": "Petite Car",
+          "imgPath": "./dynamicImgs/imgIcons/icon2.png"
+        },
+        {
+          "type": "SUV Car",
+          "imgPath": "./dynamicImgs/imgIcons/icon3.png"
+        },
+        {
+          "type": "Moyenne Car",
+          "imgPath": "./dynamicImgs/imgIcons/icon4.png"
+        },
+        {
+          "type": "Big Car",
+          "imgPath": "./dynamicImgs/imgIcons/icon5.png"
+        },
+        {
+          "type": "Monospace",
+          "imgPath": "./dynamicImgs/imgIcons/icon6.png"
+        }
+        
+      ]
+}
