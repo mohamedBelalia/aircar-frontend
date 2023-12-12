@@ -25,7 +25,7 @@ const NearCars = () => {
             const data = await response.json() ;
             setGeoInfo(data)
         } catch (error) {
-            
+            console.log(error);
         }
     }
 
