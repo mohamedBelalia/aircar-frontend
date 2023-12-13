@@ -30,7 +30,7 @@ const NearCars = () => {
     }
 
   return (
-    <div>NearCars</div>
+    <div>NearCars to you</div>
   )
 }
 

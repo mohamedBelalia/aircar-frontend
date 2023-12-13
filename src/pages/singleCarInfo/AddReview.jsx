@@ -52,7 +52,7 @@ const AddReview = ({idCar , changedData , onDataChanged , clientId}) => {
         <h1 className='font-bold text-xl mb-6'>Add a Review</h1>
 
         {
-            commentAdded ? 
+            commentAdded &&
             <>
                 <div className='my-5 w-[100%] h-[50px] rounded-md bg-green-500 text-sky-950 flex justify-center items-center font-bold'>
                     <p>Your Comment Added Successfully !</p>
@@ -61,7 +61,6 @@ const AddReview = ({idCar , changedData , onDataChanged , clientId}) => {
                   setTimeout(()=>{setCommentAdded(false)} , 5000)
                 }
             </>
-            : null
         }
 
 {

@@ -36,7 +36,7 @@ function App() {
                 <Route path='/Car_Information/:id' element={<SingleCarInfo/>}/>
                 <Route path='/Search-Results' element={<SearchPage/>}/>
                 <Route path='/dashboard/:agenceName' element={<DashboardAgency/>}/>
-                <Route path='/Agency/:agenceName' element={<AgencyProfile/>}/>
+                <Route path='/Agency/:agenceName/:id' element={<AgencyProfile/>}/>
                 <Route path='*' element={<NotFound404/>}/>
             </Routes>
           <Footer/>

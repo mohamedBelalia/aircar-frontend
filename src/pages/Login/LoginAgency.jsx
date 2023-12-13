@@ -12,7 +12,7 @@ const LoginAgency = () => {
 
     const navigate = useNavigate();
 
-    const {login} = useContext(UserContext);
+    const {login , loginAgency} = useContext(UserContext);
 
     const [loginErrors , setLoginErrors] = useState(); 
     
@@ -49,6 +49,7 @@ const LoginAgency = () => {
             }
             else if(response.data.status === "successLogin"){
                 Cookies.set("atokenacc" , response.data.token , { expires: 30 })
+                loginAgency(response.data.token)
                 navigate("/")
             }
         })

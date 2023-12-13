@@ -77,6 +77,7 @@ const SingleCarInfo = () => {
             }
             else{
                 setCarInfo(response.data)
+                console.log(response.data);
             }
         })
     }
@@ -163,7 +164,7 @@ const SingleCarInfo = () => {
                 <RentingDateForm carId={id} carPrice={carInfo[0].price_per_day}/>
                 <OwnerInfo name={carInfo[0].name}
                    email={carInfo[0].email} createdDate={carInfo[0].created_at} 
-                   profilePath={carInfo[0].logoImg}/> 
+                   profilePath={carInfo[0].logoImg} agenceId={carInfo[0].agency_ref}/> 
    
                    <AddReview changedData={changedState} onDataChanged={btnRender}  idCar={id} clientId={userInfo.id}/> 
                 </>
