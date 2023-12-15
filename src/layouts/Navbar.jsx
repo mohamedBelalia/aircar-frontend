@@ -46,7 +46,7 @@ export const Navbar = () => {
             <div className='w-[40%]'>
                 <ul className='flex justify-between items-center w-[100%]'>
                     <Link to={"/"}><li className='cursor-pointer hover:underline underline-offset-8'>Home</li></Link>
-                    <Link to={"/Search-Results"}><li className='cursor-pointer hover:underline underline-offset-8'>Near Cars</li></Link>
+                    <Link to={"/Near-cars"}><li className='cursor-pointer hover:underline underline-offset-8'>Near Cars</li></Link>
 
                     {
                         agencyInfo.email ?

@@ -14,6 +14,7 @@ import DashboardAgency from './pages/dashboardAgency/DashboardAgency';
 import SignupAgency from './pages/Signup/SignupAgency';
 import LoginAgency from './pages/Login/LoginAgency';
 import AgencyProfile from './pages/AgencyProfile/AgencyProfile';
+import NearCars from './pages/NearCars/NearCars';
 
 
 
@@ -35,6 +36,7 @@ function App() {
                 <Route path='/Car_infromation' element={<RentUrCar/>}/> 
                 <Route path='/Car_Information/:id' element={<SingleCarInfo/>}/>
                 <Route path='/Search-Results' element={<SearchPage/>}/>
+                <Route path='/Near-cars' element={<NearCars/>}/>
                 <Route path='/dashboard/:agenceName' element={<DashboardAgency/>}/>
                 <Route path='/Agency/:agenceName/:id' element={<AgencyProfile/>}/>
                 <Route path='*' element={<NotFound404/>}/>

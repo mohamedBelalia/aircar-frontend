@@ -22,6 +22,7 @@ const SignupAgency = () => {
     const [agencyData , setAgencyData] = useState({
         agencyName : "" ,
         agencyAdresse : "" ,
+        agencyCity : "" ,
         email : "" ,
         password : "",
         passwordConfig : "" ,
@@ -42,6 +43,7 @@ const SignupAgency = () => {
         const sendAgencyData = {
             agencyName : agencyData.agencyName ,
             agencyAdresse : agencyData.agencyAdresse ,
+            agencyCity : agencyData.agencyCity ,
             email : agencyData.email ,
             pwd : agencyData.password ,
             phoneNbr : agencyData.phoneNbr
@@ -90,6 +92,11 @@ const SignupAgency = () => {
                     <div className='flex flex-col md:flex-row justify-between gap-5'>
                         <div className='border border-sky-950 md:w-1/2 w-full h-[40px] mb-8 mx-auto'>
                             <input onChange={handleChange} value={agencyData.name} className='bg-sky-100 w-[100%] h-[100%] pl-5 outline-none' type="text" placeholder='Agency Name' name='agencyName'/>
+                        </div>
+                    </div>
+                    <div className='flex flex-col md:flex-row justify-between gap-5'>
+                        <div className='border border-sky-950 md:w-1/2 w-full h-[40px] mb-8 mx-auto'>
+                            <input onChange={handleChange} value={agencyData.agencyCity} className='bg-sky-100 w-[100%] h-[100%] pl-5 outline-none' type="text" placeholder='Agency City' name='agencyCity'/>
                         </div>
                         
                         <div className='border border-sky-950 md:w-1/2 w-full h-[40px] mb-8 mx-auto'>

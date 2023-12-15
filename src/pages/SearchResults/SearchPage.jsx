@@ -14,7 +14,9 @@ import Datepicker from 'react-tailwindcss-datepicker'
 // WHERE startDate <> '2023-11-27' AND endDate <> '2023-11-30' LIMIT 0, 25;
 
 
-const SearchPage = () => {
+const SearchPage = ({location = ""}) => {
+
+    console.log(`location is ${location}`);
 
     const navigate = useNavigate();
 
@@ -33,7 +35,8 @@ const SearchPage = () => {
         brands : "" ,
         startDate : "" ,
         endDate : "" ,
-        typeCar : ""
+        typeCar : "",
+        locationRegion : location 
     })
 
     const handleFilter = (event) => {
@@ -133,6 +136,14 @@ const SearchPage = () => {
       <Navbar/>
 
     <div className='md:px-40 px-5 my-8'>
+
+        {location.length > 0 && 
+
+            <div>
+                <h1 className='mb-4 text-xl font-medium'>Cars in {location}</h1>
+            </div>
+            
+        }
         
         {/* Start Editing Date */}
         <div className='date-style rounded-md w-[100%] flex justify-between items-center'>

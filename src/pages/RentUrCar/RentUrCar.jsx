@@ -18,6 +18,27 @@ const RentUrCar = () => {
     const navigate = useNavigate();
 
     const [loading , setLoading] = useState(true)
+
+    const selectedFile = useRef();
+
+    const [imgUploaded , setImgUploaded] = useState(null)
+
+    const [carInfo , setCarInfo] = useState({
+        address : agencyInfo.address,
+        city : agencyInfo.cityAgency,
+        seats_number : "",
+        brand : "",
+        category : "",
+        model : "",
+        fuel_type : "",
+        color : "",
+        transmission : "",
+        price_per_day : "",
+        description : "" ,
+        owner_id : agencyInfo.id
+    })
+
+    const [error , setError] = useState(null);
     
     useEffect(()=>{
         const checkAccess = async () => {
@@ -26,7 +47,12 @@ const RentUrCar = () => {
 
                 if(Cookies.get("atokenacc")){
                     const response = await axios.get("http://localhost/aircar_backend/getAgencyInfo.php?token="+Cookies.get("atokenacc"))
-                    
+                    console.log(response.data[0]);
+                    setCarInfo({...carInfo , 
+                        address : response.data[0].address ,
+                        city : response.data[0].cityAgency ,
+                        owner_id : response.data[0].id })
+
                     if(response.data.status === "unvalidUser"){
                         navigate("/Login")
                     }
@@ -48,38 +74,12 @@ const RentUrCar = () => {
 
     },[navigate])
 
-    
+    console.log(carInfo);
 
-    const selectedFile = useRef();
-    const userId = agencyInfo.id;
-
-    const [imgUploaded , setImgUploaded] = useState(null)
-
-    const [carInfo , setCarInfo] = useState({
-        city : agencyInfo.address,
-        seats_number : "",
-        brand : "",
-        category : "",
-        model : "",
-        fuel_type : "",
-        color : "",
-        transmission : "",
-        price_per_day : "",
-        description : "" ,
-        owner_id : agencyInfo.id
-    })
-
-    const [error , setError] = useState(null);
-
-    
 
     const handleChange = (e) => {
         setCarInfo({ ...carInfo , [e.target.name] : e.target.value})
     }  
-
-   
-    
-    
 
     const uploader = async() => {
         if(selectedFile.current.files.length == 0){

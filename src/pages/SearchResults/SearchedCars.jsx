@@ -22,7 +22,7 @@ const SearchedCars = ({searchedFilters}) => {
     }
 
     const getCars = () => {
-        axios.post("http://localhost/aircar_backend/filterCars.php?" , searchedFilters)
+        axios.post("http://localhost/aircar_backend/filterCars.php" , searchedFilters)
         .then((response)=>{
             setFiltredCars(response.data)
         })
