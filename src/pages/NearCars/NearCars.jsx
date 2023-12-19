@@ -11,8 +11,6 @@ const NearCars = () => {
 
     useEffect(()=>{
         getUserIp() ;
-
-        console.log(geoInfo);
     },[ipAddress])
 
     const getUserIp = async ()=>{
@@ -39,8 +37,6 @@ const NearCars = () => {
             setIsStillSearch(false)
         }
     }
-
-    // console.log(geoInfo);
 
 
   return (

@@ -60,6 +60,8 @@ const AgencyCars = ({agencyRef}) => {
       else{
         setIsZeroStars(true)
       }
+
+      window.location.reload(true)
       
   } 
 
