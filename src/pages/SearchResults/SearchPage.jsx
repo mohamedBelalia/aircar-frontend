@@ -16,7 +16,6 @@ import Datepicker from 'react-tailwindcss-datepicker'
 
 const SearchPage = ({location = ""}) => {
 
-    console.log(`location is ${location}`);
 
     const navigate = useNavigate();
 
@@ -282,7 +281,7 @@ const SearchPage = ({location = ""}) => {
                     
                     {
                         brands.carBrands.map((brand , key)=>key<10&&(
-                            <div className='w-[100%]'> 
+                            <div className='w-[100%]' key={key}> 
                         <div className='flex gap-4 items-center w-[100%]'>
                             <input onChange={handleFilter} value={brand} className='cursor-pointer w-[20px] h-[20px]' type="radio" name='brands' id={brand}/>
                             <label className='cursor-pointer select-none' htmlFor={brand}>{brand}</label>

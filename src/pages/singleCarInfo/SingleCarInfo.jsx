@@ -77,7 +77,6 @@ const SingleCarInfo = () => {
             }
             else{
                 setCarInfo(response.data)
-                console.log(response.data);
             }
         })
     }

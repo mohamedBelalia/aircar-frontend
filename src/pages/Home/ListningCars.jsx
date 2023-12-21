@@ -35,8 +35,12 @@ const ListningCars = () => {
             else{
                 setCarsInfo(response.data)
             }
-        }).catch((err)=>{
-            console.log(err);
+        }).catch(err=>{
+            if(err.response){
+                return (
+                    <div>Noo</div>
+                )
+            }
         })
     },[])
 
