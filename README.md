@@ -44,6 +44,11 @@
 ![landing_page](aircarImgsPages/dashboard.png)
 ![landing_page](aircarImgsPages/dashboard2.png)
 
+## <div align="center"> Publishing a Car </div>
+![landing_page](aircarImgsPages/rent1.png)
+![landing_page](aircarImgsPages/postingCar.png)
+![landing_page](aircarImgsPages/postingCar2.png)
+
 
 <!--  
 git add .
