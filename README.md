@@ -3,5 +3,5 @@
 #
 ## Some of pages of aircar website
 #
-### <div align="center"> Landing Page </div>
+## <div align="center" style="color:blue"> Landing Page </div>
 ![landing_page](aircarImgsPages/landing.png)
