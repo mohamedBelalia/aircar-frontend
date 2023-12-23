@@ -5,49 +5,49 @@
 #
 ## <div align="center"> Home Page </div>
 ![landing_page](aircarImgsPages/landing.png)
-![landing_page](aircarImgsPages/numbers.png)
-![landing_page](aircarImgsPages/askes.png)
-![landing_page](aircarImgsPages/askes2.png)
-![landing_page](aircarImgsPages/lisingCars.png)
+![numbers](aircarImgsPages/numbers.png)
+![askes](aircarImgsPages/askes.png)
+![askes](aircarImgsPages/askes2.png)
+![askes](aircarImgsPages/lisingCars.png)
 
 ### <div align="center"> Footer </div>
-![landing_page](aircarImgsPages/footer.png)
+![footer](aircarImgsPages/footer.png)
 
 ## <div align="center"> Login & Signup as Client </div>
-![landing_page](aircarImgsPages/loginC.png)
-![landing_page](aircarImgsPages/signupC.png)
+![login](aircarImgsPages/loginC.png)
+![signup](aircarImgsPages/signupC.png)
 
 ## <div align="center"> Login & Signup as Agency </div>
-![landing_page](aircarImgsPages/loginA.png)
-![landing_page](aircarImgsPages/signupA.png)
+![login](aircarImgsPages/loginA.png)
+![signup](aircarImgsPages/signupA.png)
 
 ## <div align="center"> Search Page </div>
-![landing_page](aircarImgsPages/search.png)
-![landing_page](aircarImgsPages/search2.png)
-![landing_page](aircarImgsPages/search3.png)
+![search](aircarImgsPages/search.png)
+![search](aircarImgsPages/search2.png)
+![search](aircarImgsPages/search3.png)
 
 ## <div align="center"> Single Car Page </div>
-![landing_page](aircarImgsPages/singleCar.png)
-![landing_page](aircarImgsPages/singleCar2.png)
-![landing_page](aircarImgsPages/singleCar3.png)
-![landing_page](aircarImgsPages/singleCar4.png)
-![landing_page](aircarImgsPages/singleCar5.png)
+![singleCar](aircarImgsPages/singleCar.png)
+![singleCar](aircarImgsPages/singleCar2.png)
+![singleCar](aircarImgsPages/singleCar3.png)
+![singleCar](aircarImgsPages/singleCar4.png)
+![singleCar](aircarImgsPages/singleCar5.png)
 
 ## <div align="center"> Confirm Car Appointment Popup </div>
-![landing_page](aircarImgsPages/confirm.png)
+![confirm](aircarImgsPages/confirm.png)
 
 ## <div align="center"> Agency Profile </div>
-![landing_page](aircarImgsPages/agencyProfile.png)
-![landing_page](aircarImgsPages/agencyProfile2.png)
+![agencyProfile](aircarImgsPages/agencyProfile.png)
+![agencyProfile](aircarImgsPages/agencyProfile2.png)
 
 ## <div align="center"> Agency Dashboard </div>
-![landing_page](aircarImgsPages/dashboard.png)
-![landing_page](aircarImgsPages/dashboard2.png)
+![dashboard](aircarImgsPages/dashboard.png)
+![dashboard](aircarImgsPages/dashboard2.png)
 
 ## <div align="center"> Publishing a Car </div>
-![landing_page](aircarImgsPages/rent1.png)
-![landing_page](aircarImgsPages/postingCar.png)
-![landing_page](aircarImgsPages/postingCar2.png)
+![postingCar](aircarImgsPages/rent1.png)
+![postingCar](aircarImgsPages/postingCar.png)
+![postingCar](aircarImgsPages/postingCar2.png)
 
 ## <div align="center"> Some Of Responsive Pages </div>
 <p align="center">
@@ -56,13 +56,13 @@
 </p>
 
 <p align="center">
-  <img src="aircarImgsPages/filterRes.png" alt="Responsive landing page">
-  <img src="aircarImgsPages/filterRes2.png" alt="Responsive landing page">
+  <img src="aircarImgsPages/filterRes.png" alt="Responsive filterRes page">
+  <img src="aircarImgsPages/filterRes2.png" alt="Responsive filterRes page">
 </p>
 
 <p align="center">
-  <img src="aircarImgsPages/asksRes.png" alt="Responsive landing page">
-  <img src="aircarImgsPages/singleCarRes.png" alt="Responsive landing page">
+  <img src="aircarImgsPages/asksRes.png" alt="Responsive asksRes page">
+  <img src="aircarImgsPages/singleCarRes.png" alt="Responsive asksRes page">
 </p>
 
 
