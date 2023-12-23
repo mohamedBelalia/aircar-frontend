@@ -33,9 +33,16 @@
 ![landing_page](aircarImgsPages/singleCar4.png)
 ![landing_page](aircarImgsPages/singleCar5.png)
 
+## <div align="center"> Confirm Car Appointment Popup </div>
+![landing_page](aircarImgsPages/confirm.png)
+
 ## <div align="center"> Agency Profile </div>
 ![landing_page](aircarImgsPages/agencyProfile.png)
 ![landing_page](aircarImgsPages/agencyProfile2.png)
+
+## <div align="center"> Agency Dashboard </div>
+![landing_page](aircarImgsPages/dashboard.png)
+![landing_page](aircarImgsPages/dashboard2.png)
 
 
 <!--  
