@@ -5,9 +5,13 @@
 #
 ## <div align="center"> Home Page </div>
 ![landing_page](aircarImgsPages/landing.png)
-![landing_page](aircarImgsPages/landing.png)
-![landing_page](aircarImgsPages/landing.png)
-![landing_page](aircarImgsPages/landing.png)
+![landing_page](aircarImgsPages/numbers.png)
+![landing_page](aircarImgsPages/askes.png)
+![landing_page](aircarImgsPages/askes2.png)
+![landing_page](aircarImgsPages/lisingCars.png)
+### <div align="center"> Footer </div>
+![landing_page](aircarImgsPages/footer.png)
+
 
 <!--  
 git add .
