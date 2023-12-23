@@ -52,7 +52,17 @@
 ## <div align="center"> Some Of Responsive Pages </div>
 <p align="center">
   <img src="aircarImgsPages/landingRes.png" alt="Responsive landing page">
-  <img src="aircarImgsPages/landingRes.png" alt="Responsive landing page">
+  <img src="aircarImgsPages/nav.png" alt="Responsive landing page">
+</p>
+
+<p align="center">
+  <img src="aircarImgsPages/filterRes.png" alt="Responsive landing page">
+  <img src="aircarImgsPages/filterRes2.png" alt="Responsive landing page">
+</p>
+
+<p align="center">
+  <img src="aircarImgsPages/asksRes.png" alt="Responsive landing page">
+  <img src="aircarImgsPages/singleCarRes.png" alt="Responsive landing page">
 </p>
 
 
