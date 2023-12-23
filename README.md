@@ -9,14 +9,23 @@
 ![landing_page](aircarImgsPages/askes.png)
 ![landing_page](aircarImgsPages/askes2.png)
 ![landing_page](aircarImgsPages/lisingCars.png)
+
 ### <div align="center"> Footer </div>
 ![landing_page](aircarImgsPages/footer.png)
+
 ## <div align="center"> Login & Signup as Client </div>
 ![landing_page](aircarImgsPages/loginC.png)
 ![landing_page](aircarImgsPages/signupC.png)
+
 ## <div align="center"> Login & Signup as Agency </div>
 ![landing_page](aircarImgsPages/loginA.png)
 ![landing_page](aircarImgsPages/signupA.png)
+
+## <div align="center"> Search Page </div>
+![landing_page](aircarImgsPages/search.png)
+![landing_page](aircarImgsPages/search2.png)
+![landing_page](aircarImgsPages/search3.png)
+
 
 
 
