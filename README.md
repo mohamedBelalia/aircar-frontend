@@ -3,4 +3,4 @@
 #
 ## some of pages of aircar website
 #
-![landing_page](aircarImgsPages/landingRes.png)
+![landing_page](aircarImgsPages/landing.png)
