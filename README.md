@@ -52,6 +52,7 @@
 ## <div align="center"> Some Of Responsive Pages </div>
 <p align="center">
   <img src="aircarImgsPages/landingRes.png" alt="Responsive landing page">
+  <img src="aircarImgsPages/landingRes.png" alt="Responsive landing page">
 </p>
 
 
