@@ -11,6 +11,13 @@
 ![landing_page](aircarImgsPages/lisingCars.png)
 ### <div align="center"> Footer </div>
 ![landing_page](aircarImgsPages/footer.png)
+## <div align="center"> Login & Signup as Client </div>
+![landing_page](aircarImgsPages/loginC.png)
+![landing_page](aircarImgsPages/signupC.png)
+## <div align="center"> Login & Signup as Agency </div>
+![landing_page](aircarImgsPages/loginA.png)
+![landing_page](aircarImgsPages/signupA.png)
+
 
 
 <!--  
