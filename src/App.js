@@ -1,7 +1,6 @@
 import './App.css';
 import { BrowserRouter as Router , Routes , Route } from "react-router-dom";
 import Footer from './layouts/Footer';
-import { Navbar } from './layouts/Navbar';
 import Home from './pages/Home/Home';
 import Signup from './pages/Signup/Signup';
 import { UserContextProvider } from './context/UserContext';
@@ -25,7 +24,6 @@ function App() {
     <div>
       <UserContextProvider>
       <Router>
-          {/* <Navbar/> */}
             <Routes>
                 <Route index element={<Home/>}/>
                 <Route path='/' element={<Home/>}/>
